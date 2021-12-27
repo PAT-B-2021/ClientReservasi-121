@@ -44,6 +44,7 @@ namespace ClientReservasi_121
             this.btHapus = new System.Windows.Forms.Button();
             this.btClear = new System.Windows.Forms.Button();
             this.dtPemesanan = new System.Windows.Forms.DataGridView();
+            this.buttonLogout = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtPemesanan)).BeginInit();
             this.SuspendLayout();
             // 
@@ -179,11 +180,22 @@ namespace ClientReservasi_121
             this.dtPemesanan.TabIndex = 14;
             this.dtPemesanan.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtPemesanan_CellClick);
             // 
+            // buttonLogout
+            // 
+            this.buttonLogout.Location = new System.Drawing.Point(718, 12);
+            this.buttonLogout.Name = "buttonLogout";
+            this.buttonLogout.Size = new System.Drawing.Size(75, 31);
+            this.buttonLogout.TabIndex = 15;
+            this.buttonLogout.Text = "Logout";
+            this.buttonLogout.UseVisualStyleBackColor = true;
+            this.buttonLogout.Click += new System.EventHandler(this.buttonLogout_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 575);
+            this.Controls.Add(this.buttonLogout);
             this.Controls.Add(this.dtPemesanan);
             this.Controls.Add(this.btClear);
             this.Controls.Add(this.btHapus);
@@ -224,6 +236,7 @@ namespace ClientReservasi_121
         private System.Windows.Forms.Button btHapus;
         private System.Windows.Forms.Button btClear;
         private System.Windows.Forms.DataGridView dtPemesanan;
+        private System.Windows.Forms.Button buttonLogout;
     }
 }
 

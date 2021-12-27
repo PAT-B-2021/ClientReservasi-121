@@ -103,5 +103,12 @@ namespace ClientReservasi_121
             btSimpan.Enabled = false;
             textBoxID.Enabled = false;
         }
+
+        private void buttonLogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login fl = new Login();
+            fl.Show();
+        }
     }
 }
