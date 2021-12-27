@@ -65,6 +65,7 @@ namespace ClientReservasi_121
             // 
             this.textBoxPassword.Location = new System.Drawing.Point(242, 191);
             this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.PasswordChar = '*';
             this.textBoxPassword.Size = new System.Drawing.Size(182, 22);
             this.textBoxPassword.TabIndex = 3;
             // 
